@@ -28,7 +28,8 @@ Interactive map of US retail store locations with zoom-based aggregation, viewpo
    ```bash
    cd backend
    npm install
-   npm run import:csv
+   npm run import:csv -- ..\data\stores.csv
+
    ```
 
    Import reads the CSV into SQLite (`data/stores.db` by default) and rebuilds state-level aggregates. Re-run after replacing the CSV.
