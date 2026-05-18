@@ -5,4 +5,5 @@ build/
 *.db
 *.sqlite
 data/*.csv
+!data/stores.csv
 .DS_Store
